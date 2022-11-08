@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: 1500px;
+    max-height: 1500px;
+}
+   
+   p{
+    padding: 2px;
+   }
+   
+   .box img#fotohome{
+    position: absolute;
+    min-width: 500px;
+    min-height: 500px;
+   }
+
+     nav{
+    position: relative;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 15vw;
+    color: #ffffff;
+    background-color: #222222;
+
+   }
+
+   header{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+   }
+
+
+   h2{
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 2rem;
+   }
+
+   nav a{
+    text-decoration: nome;
+    color: #ffffff;
+    padding: 0 1.5rem;
+   }
+
+   nav a:hover {
+    color: #fff;
+    transition: 0.3s;
+   }
+
+   #form {
+    display: flex;
+    align-self: center;
+    height:100% ;
+    background-color: #222222;
+    color: #fff;
+    padding: 8vw 30vw ;
+   }
+
+   input,
+   select,
+   textarea{
+    width: 40vw;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    border-radius: 10px;
+   }
+   
+
+   .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    height: 550px;
+   }
+
+   .column-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #6d6d6d;
+    padding: 0rem 2rem;
+   }
+
+   .column-left h1{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+   }
+
+   .column-left p{
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+   }
+
+   .column-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+    #form-button{
+    margin-top: 30px;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    border: none;
+    color: #491414;
+    background-color: #5e5e5e;
+    cursor: pointer;
+    border-radius: 50px;
+   }
+
+   #form-button:hover{
+    background-color: #fff;
+    transition: 0.3s;
+   }
+
+   #CTA-button{
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    border: nome;
+    color: #fa5757;
+    background-color: #222222;
+    cursor: pointer;
+    border-radius: 50px;
+    text-decoration: none;
+   }
+
+   #CTA-button:hover{
+    background-color:#fff ;
+    color: #222222;
+    transition: 0.3s;
+   }
+
+   .titulo01{
+    text-align: center;
+    font-size: 2rem;
+    margin: 5px;
+    background-color:  #270d0d;
+    color: #ffffff;
+   }
+
+   #bodysob{
+    background-color:  #270d0d;
+   }
+   .text{
+    color: #ffffff;
+    line-height: 25px;
+    line-break: auto;
+    padding: 10px;
+    margin: 5px;
+    text-indent:30px ;
+   }
